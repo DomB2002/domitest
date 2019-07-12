@@ -1,0 +1,37 @@
+Git.txt
+
+intallation de git : sur le site
+
+on ouvre le terminal en tappant cmd dans la recherche windows ou une fois git installé: click droit sur le dossier souhaité et ouvrir git bash
+
+
+	git --version (verifier que git est bien installé)
+	C:\Users\Etudiant>git --version
+	git version 2.22.0.windows.1
+
+Définir son identité : (pour savoir qui fait quoi)
+
+ 	git config --global user.name (nom.prenom)
+	git config --global user.email (mail@mail.com)
+
+// Créer un repertoire (dossier) :
+
+	mkdir nomdossier
+
+// pour acceder à notre repertoire : 
+
+cd test/ (ici tests est le nom du repertoire)
+
+initialisation du git pour travailler sur le projet :
+
+	git init (creation de la branch master)
+
+	git status (informations sur les fichiers de notre projet)
+
+	=> création d'un fichier html sur notre editeur
+
+	Enregistrement de notre projet : 2 étapes
+	selection des fichiers 
+		gitaddindex.html
+	enregistrement des fichiers
+		git commit -m"lancement du projet"
